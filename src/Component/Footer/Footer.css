@@ -1,0 +1,131 @@
+.footer {
+  background: linear-gradient(90deg, #0d0d0d, #1a001a);
+  color: white;
+  padding: 50px 20px 20px;
+  border-top: 2px solid #ff8800;
+  box-shadow: 0 -5px 25px rgba(255, 140, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1s ease;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: center;
+}
+
+.footer-name {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff7b00, #9c27b0);
+  
+
+  animation: glow 3s infinite alternate;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 4px;
+}
+
+.footer-location {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 6px;
+}
+
+.footer-middle h3,
+.footer-right h3 {
+  color: #ff8a00;
+  margin-bottom: 8px;
+  font-size: 18px;
+  border-bottom: 1px solid #ff8a00;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.footer-icon {
+  color: #ff8a00;
+  margin-right: 6px;
+}
+
+.footer-link {
+  color: #ff8a00;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #b266ff;
+  text-shadow: 0 0 10px #b266ff;
+}
+
+.footer-phone {
+  color: #ff8a00;
+  font-weight: 500;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #ff8a00;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #b266ff;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #b266ff;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer-bottom span {
+  color: #ff8a00;
+  font-weight: 500;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff8a00, 0 0 20px #ff8a00, 0 0 30px #9c27b0;
+  }
+  to {
+    text-shadow: 0 0 25px #9c27b0, 0 0 35px #ff8a00, 0 0 45px #ff8a00;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

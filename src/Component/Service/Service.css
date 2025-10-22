@@ -1,0 +1,65 @@
+.services {
+  background-color: #000;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.heading span {
+  color: #fb923c;
+}
+
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ===== Service Box ===== */
+.service-box {
+  background-color: #111;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 40px 25px;
+  min-height: 180px;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px transparent;
+}
+
+.service-box:hover {
+  background: linear-gradient(135deg, #a855f7, #fb923c);
+  box-shadow: 0 0 25px rgba(251, 146, 60, 0.5);
+  transform: translateY(-6px);
+  border: none;
+}
+
+/* ===== Text Styles ===== */
+.service-box h3 {
+  font-size: 21px;
+  margin-bottom: 10px;
+  color: #a855f7;
+  transition: color 0.3s ease;
+}
+
+.service-box p {
+  font-size: 15px;
+  color: #bbb;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+
+.service-box:hover h3,
+.service-box:hover p {
+  color: white;
+}
