@@ -16,9 +16,17 @@ const Navbar = () => {
     <li><Link to="./Skill">Skill</Link></li>
     <li><Link to="./Connect">Connect</Link></li>
 </ul>
-<div className="navbar-btn"><Link to="/AlihaResume.pdf"  target="_blank"
-          rel="noopener noreferrer"><button>Download CV</button></Link></div>
-    </div>
+<div className="navbar-btn">
+  <a 
+    href="/alihaCV.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <button>Download CV</button>
+  </a>
+</div>
+</div>
+
     </>
   )
 }

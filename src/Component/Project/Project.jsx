@@ -5,6 +5,10 @@ import form from '../../assets/image/form.png'
 import todo from '../../assets/image/todo.png'
 import digital from '../../assets/image/digital.PNG'
 import school from '../../assets/image/school.PNG'
+import result from '../../assets/image/result.PNG'
+import trading from '../../assets/image/trading.PNG'
+import daraz from '../../assets/image/daraz.PNG'
+import calculator from '../../assets/image/image213.PNG'
 
 const Project = () => {
   const [filter, setFilter] = useState("All");
@@ -51,7 +55,38 @@ const Project = () => {
       github: "https://github.com/alihaimran285-byte/The-Digital-Impacts",
       livedemo: "https://username.github.io/trading-app/",
     },
-   
+    {
+      name: "Student-Result",
+      category: "Frontend",
+      tags: ["javascript", "Styled Components", "Responsive"],
+      img: result,
+      github: "https://github.com/alihaimran285-byte/result",
+      livedemo: " https://alihaimran285-byte.github.io/result/",
+    },
+    {
+      name: "Trading",
+      category: "Frontend",
+      tags: ["HTML", "CSS",  "Responsive Design"],
+      img: trading,
+      github: "https://github.com/alihaimran285-byte/trading",
+      livedemo: " https://alihaimran285-byte.github.io/trading/",
+    },
+    {
+      name: "Daraz-app",
+      category: "Frontend",
+      tags: ["HTML", "CSS",  "Responsive Design"],
+      img: daraz,
+      github: "https://github.com/alihaimran285-byte/daraz-app",
+      livedemo: "  https://alihaimran285-byte.github.io/daraz-app/",
+    },
+   {
+      name: "calculator",
+      category: "Frontend",
+      tags: [" NextReact", "javascript",  "Responsive Design"],
+      img: calculator,
+      github: "https://github.com/alihaimran285-byte/calculator",
+      
+    },
    
   ];
 
