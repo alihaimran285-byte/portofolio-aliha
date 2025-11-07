@@ -21,7 +21,7 @@ const Project = () => {
       tags: ["React", "HTML", "CSS", "Form Validation"],
       img: form,
       github: "https://github.com/alihaimran285-byte/admission-form",
-      livedemo: " https://alihaimran285-byte.github.io/admission-form/",
+      livedemo: "  https://alihaimran285-byte.github.io/admission-form/",
     },
     {
       name: "To-Do App",
@@ -29,7 +29,7 @@ const Project = () => {
       tags: ["React", "JavaScript", "Local Storage"],
       img :todo,
       github: "https://github.com/alihaimran285-byte/todo-app",
-      livedemo: "https://username.github.io/todo-app/",
+      livedemo: " https://alihaimran285-byte.github.io/todo-app/",
     },
     {
       name: "school-form",
