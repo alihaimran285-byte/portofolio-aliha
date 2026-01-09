@@ -9,6 +9,7 @@ import result from '../../assets/image/result.PNG'
 import trading from '../../assets/image/trading.PNG'
 import daraz from '../../assets/image/daraz.PNG'
 import calculator from '../../assets/image/image213.PNG'
+import panda from '../../assets/image/panda.png'
 
 const Project = () => {
   const [filter, setFilter] = useState("All");
@@ -53,7 +54,7 @@ const Project = () => {
       tags: ["React", "Styled Components", "Responsive"],
       img: digital,
       github: "https://github.com/alihaimran285-byte/The-Digital-Impacts",
-      livedemo: "https://username.github.io/trading-app/",
+      livedemo: "https://alihaimran285-byte.github.io/The-Digital-Impacts/",
     },
     {
       name: "Student-Result",
@@ -87,6 +88,17 @@ const Project = () => {
       github: "https://github.com/alihaimran285-byte/calculator",
       
     },
+     {
+      name: "School Management System",
+      category: "Frontend / Backened",
+      tags: [" NextReact", "javascript",  "Responsive Design", "Nodejs", "Express", "MongoDB"],
+      img: panda,
+      github: "https://github.com/alihaimran285-byte/final-project",
+      livedemo: "  https://idyllic-bienenstitch-c2fc2b.netlify.app/",
+
+      
+    },
+   
    
   ];
 

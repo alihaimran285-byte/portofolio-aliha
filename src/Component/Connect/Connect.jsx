@@ -10,10 +10,45 @@ const Connect = () => {
       </p>
 
       <div className="connect-buttons">
-        <a href="alihaimran778@gmail.com" className="btn"target="_blank" rel="noopener noreferrer">Email Me</a>
-        <a href="tel:+923274045102" className="btn"target="_blank" rel="noopener noreferrer">Call Me</a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="btn">LinkedIn</a>
-        <a href="https://github.com/alihaimran285" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+        {/* ✅ Email */}
+        <a
+          href="mailto:alihaimran778@gmail.com"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Email Me
+        </a>
+
+        {/* ✅ Phone */}
+        <a
+          href="tel:+923274045102"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Call Me
+        </a>
+
+        {/* ✅ LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/aliha-imran-48077b394/"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+
+        {/* ✅ GitHub */}
+        <a
+          href="https://github.com/alihaimran285-byte"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </div>
     </section>
   );

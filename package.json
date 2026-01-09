@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alihaimran285.github.io/portofolio-aliha",
+  "homepage": "https://alihaimran285-byte.github.io/portofolio-aliha",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

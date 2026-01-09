@@ -21,7 +21,7 @@ const Home = () => {
           <span className="purple"> Node.js</span>, 
           and the latest web technologies.
         </p>
-        <a href="#" className="btn">View My Resume</a>
+        <a href="" className="btn">View My Resume</a>
       </div>
 
       <div className="home-image">
